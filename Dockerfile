@@ -33,6 +33,7 @@ SHELL ["/bin/bash", "-c"]
   WORKDIR /
   RUN rm -rf /tmp_docker
   RUN mkdir /home/github
+  RUN cd /home/github
 
 # Start-up container 
   ENTRYPOINT tail -f /dev/null
