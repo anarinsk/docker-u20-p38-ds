@@ -32,6 +32,7 @@ SHELL ["/bin/bash", "-c"]
   RUN pip3 install -r requirements.txt
   WORKDIR /
   RUN rm -rf /tmp_docker
+  RUN mkdir /home/github
 
 
   
